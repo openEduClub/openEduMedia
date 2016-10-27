@@ -30,3 +30,7 @@ openEduMedia将由以下组件构成：
   *  可以用任何语言实现，我将给出python实现范例
 *  共享与协作
   *  标准认证接口（OAuth2/CAS/LDAP）在webapp里实现
+
+# 设计原则
+*  解耦，组件互相独立，可以单独选用
+*  提供标准接口，在SDK之外，支持RESTful HTTP操作
