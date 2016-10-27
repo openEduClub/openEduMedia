@@ -14,7 +14,7 @@ openEduMedia模仿存储服务领域最优秀的实现S3，为用户提供与云
 
 我们将在openEduClub这个组织下，聚集对教育技术有兴趣的小伙伴，利用开源运动的成果，构建开放的组件和服务
 
-# openEduMedia技术结构
+# openEduMedia技术架构
 openEduMedia选择的组件皆为开源组件，相关开源协议我们将在文末链接
 
 openEduMedia将由一下组件构成：
