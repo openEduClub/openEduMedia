@@ -17,7 +17,7 @@ openEduMedia模仿存储服务领域最优秀的实现S3，为用户提供与云
 # openEduMedia技术架构
 openEduMedia选择的组件皆为开源组件，相关开源协议我们将在文末链接
 
-openEduMedia将由一下组件构成：
+openEduMedia将由以下组件构成：
 
 *  nginx：作为静态文件/视频流服务器，同时也作为webapp的前端
   *  直播
@@ -28,3 +28,5 @@ openEduMedia将由一下组件构成：
 *  webapp
   *  用户入口，用于管理（CURD）静态文件
   *  可以用任何语言实现，我将给出python实现范例
+*  共享与协作
+  *  标准认证接口（OAuth2/CAS/LDAP）在webapp里实现
