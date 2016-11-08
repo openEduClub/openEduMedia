@@ -37,3 +37,11 @@ openEduMedia将由以下组件构成：
 
 # Why
 踩了太多前人挖的坑，想为后来者铺些井盖
+
+
+# 项目进度
+[fake-s3-demo](https://github.com/wwj718/fake-s3-demo)作为openEduMedia原型，目前已完成后端构建和前端上传
+
+后端采用minio提供抽象存储服务，flask_minio.py作为存储层的前端。
+
+前端基于react，使用webpack打包，核心功能已完成
